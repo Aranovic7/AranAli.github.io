@@ -1,0 +1,70 @@
+body {
+    background-color: yellow;
+    overflow-y: scroll;
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Splash', cursive;
+}
+
+.bild1 {
+    font-size: 25px;
+}
+.bild2 {
+    font-size: 25px;
+}
+
+h2 {
+    font-size: 25px;
+    text-align: center;
+    font-family: 'Splash', cursive;
+}
+
+h3 {
+    background-color: dodgerblue;
+    font-size: 25px;
+    text-align: center;
+    font-family: 'Splash', cursive;
+}
+
+h4 {
+    background-color: dodgerblue;
+    font-size: 25px;
+    text-align: center;
+    font-family: 'Splash', cursive;
+}
+
+h5 {
+    background-color: dodgerblue;
+    font-size: 25px;
+    text-align: center;
+    font-family: 'Splash', cursive;
+}
+h6 {
+    font-size: 25px;
+    text-align: center;
+    font-family: 'Splash', cursive;
+}
+
+#flex-parent{
+    display:flex;
+    width: 100%;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  
+  .flex-child{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+  }
+  .flex-child img{
+    border-radius: 50%;
+  }
+  
+  .flex-child a{
+    margin-bottom: 20px; 
+  }
+  
