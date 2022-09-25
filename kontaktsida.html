@@ -21,6 +21,7 @@ kontaktsida
 
 <link rel="stylesheet" href="kontaktsida.css">
 
+
 </head>
 
 <body>
@@ -31,19 +32,20 @@ kontaktsida
 <p><a href="http://www.instagram.com/aran.alii">Instagram</a></p>
 <h1>Du kan även kontakta mig här</h1>
 <p>Fyll i din mail och ett meddelande ifall du vill kontakta mig direkt via sidan</p>
-<form action="https://formsubmit.co/aliaran2717@email.com" method="POST">
+<form id="contact-form">
     <input type="hidden" name="_subject" value="New email!">
-    <input type="email" name="email" placeholder="skriv din mail här" required>
+    <input type="email" name="email" id="email" placeholder="skriv din mail här" required>
     <input type="hidden" name="_next" value="https://aranovic7.github.io/tack.html">
     <input type="text" name="message" placeholder="skriv ditt meddelande här" required>
     <button type="submit">Skicka</button>
+    <div class="message" id="message"></div>
 </form>
 <div class="container">
 <div class=".container:after">
 
 </div>
 </div>
-
+<script src="kontaktsida.js"></script>
 
 </body>
 
